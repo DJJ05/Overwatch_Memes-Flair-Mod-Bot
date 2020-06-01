@@ -5,8 +5,44 @@ import prawcore
 import psycopg2
 
 '''
-Login Procedure
+
++———————————————————————————————————————+
+
+MANDATORY CREDIT STATEMENTS PROVIDED
+UNDER THE GNU GENERAL PUBLIC LICENSE
+
++———————————————————————————————————————+
+
+ALL OF THE FOLLOWING CODE WAS ORIGINALLY
+MADE BY U/DEVILJAMJAR ON REDDIT AND
+DEVILJAMJAR ON GITHUB.
+
+THIS BOT WAS MADE FOR R/OVERWATCH_MEMES
+AND WAS MADE OPEN SOURCE.
+
+IF YOU INTEND TO USE THIS CODE THEN YOU
+MUST LEAVE THIS CREDIT SECTION INTACT AND
+LIST ALL CHANGES YOU MAY MAKE IN THE
+SECTION BELOW, AS SHOWN BY THE GNU GENERAL
+PUBLIC LICENSE TERMS.
+
++———————————————————————————————————————+
+
+CHANGES MADE :
+
+- EXAMPLE CHANGE
+
+- EXAMPLE CHANGE
+
+- EXAMPLE CHANGE
+
++———————————————————————————————————————+
+
 '''
+
+
+# Login Procedure
+
 
 reddit = praw.Reddit(client_id='**********',
                     client_secret='*****************',
