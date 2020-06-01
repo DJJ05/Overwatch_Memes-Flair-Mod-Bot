@@ -1,0 +1,3 @@
+prawcore==1.3.0
+praw==7.0.0
+psycopg2==2.8.5
