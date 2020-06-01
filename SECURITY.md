@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+All versions of this repo are currently supported, but this may change in the future. If so, I will make sure to update the table below. It will probably be around 5 new versions before support for the oldest supported edition is removed.
 
 | Version | Supported          |
 | ------- | ------------------ |
