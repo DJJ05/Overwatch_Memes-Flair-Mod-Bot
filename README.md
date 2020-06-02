@@ -6,6 +6,8 @@ This is the official moderation bot made especially for [/r/Overwatch_Memes](htt
 
 This bot’s purpose is to react to flair changes by removing, locking and leaving a removal reason on them. It helps to make moderating much easier for mobile users and desktop users without access to toolbox. If you have any more questions, feel free to ask here or via my Reddit which is linked above. It then procedes to add these removals to a DataBase, where it stores regular removals too. This is how we look at how proactive our moderators are. We use postgres.app for this with heroku's remote postgress addon.
 
+We now have a GitHub Pages project website! [You can view the website here.](https://deviljamjar.github.io/Overwatch_Memes-Flair-Mod-Bot/) We will be adding to it as time goes on but, for now, it is still in early development.
+
 ## VERY IMPORTANT DISCLAIMER
 
 This repository is licensed under the GNU General Public License v3.0. This is one of the most common licenses that is known for the freedom it provides the forker of the repo. However, contrary to common belief, there are a lot more terms to this agreement than you may think, [as demonstrated in this screenshot](https://i.imgur.com/WH7Ieir.jpg).
