@@ -1,5 +1,6 @@
 ## Welcome to my GitHub page :)
 ### Here I will be showcasing important parts of my code, mainly from the PRAW and PsycoPG2 libraries and showing you how they work.
+***
 
 ```python
 import praw
