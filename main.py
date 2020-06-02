@@ -40,16 +40,13 @@ CHANGES MADE :
 
 '''
 
-
 # Login Procedure
-
 
 reddit = praw.Reddit(client_id='**********',
                     client_secret='*****************',
                     password='*******************',
                     username='Overwatch_MemesBot',
                     user_agent='Overwatch Moderation Bot by u/DevilJamJar')
-
 
 subreddit = reddit.subreddit('Overwatch_Memes')
 
