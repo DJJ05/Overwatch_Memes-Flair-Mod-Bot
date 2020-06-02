@@ -13,3 +13,11 @@ This repository is licensed under the GNU General Public License v3.0. This is o
 As you can see, I am happy for you to use my repo as long as you leave in the pre-built comment and print statement that gives me full credit for the script, as well as crediting me wherever you upload or share it. You also must state in the final script and to wherever you upload it the changes that you made, which effectively means you must either leave in my credit comment or remove it and tell people you removed it... your choice.
 
 You must also use the same license that I used in any future uploads you make, which includes making everybody who uses your updated version credit me as the creator.
+
+## How can I use this?
+
+To use this repo exactly how it is intended to be used, you will need a Reddit account that you will create a personal use script on, a subreddit of which this account is a moderator on and a PostgreSQL server running the version specified in requirements.txt, alongside a database with a table set up with the same ModStats fields as are listed above and a pip3 installation of the SQL module for ease of acces when starting your database.
+
+You will need to change all the variables in main.py with your own, as should be pretty obvious to you if you have decided to get this far. The IDs of the flairs can be accessed through the flairs list that is viewable to mods. IDs should be listed there. Client secret and ID are listed in your personal use script settings page, and the SQL server settings correspond with the running instance of your PostgreSQL server. If you are running this locally, then you can fill the host variable with 'localhost' and the port as the default.
+
+If you encounter any errors from this point on, please feel free to DM on Reddit with the link above :)
