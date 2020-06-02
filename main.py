@@ -3,6 +3,7 @@
 import praw
 import prawcore
 import psycopg2
+import config
 
 '''
 
@@ -42,23 +43,23 @@ CHANGES MADE :
 
 # Login Procedure
 
-reddit = praw.Reddit(client_id='**********',
-                    client_secret='*****************',
-                    password='*******************',
-                    username='Overwatch_MemesBot',
-                    user_agent='Overwatch Moderation Bot by u/DevilJamJar')
+reddit = praw.Reddit(client_id=config.client_id,
+                    client_secret=config.client_secret,
+                    password=config.password,
+                    username=config.username,
+                    user_agent=config.user_agent)
 
-subreddit = reddit.subreddit('Overwatch_Memes')
+subreddit = reddit.subreddit(config.subreddit)
 
 print('Starting Comment Bot')
 
 def updateTable(ModName, FlairRemovals):
     try:
-        connection = psycopg2.connect(user="*********",
-                                      password="******",
-                                      host="***********",
-                                      port="***********",
-                                      database="************")
+        connection = psycopg2.connect(user=config.sql_username,
+                                      password=config.sql_password,
+                                      host=config.sql_hostname,
+                                      port=config.sql_port,
+                                      database=config.sql_database)
 
         cursor = connection.cursor()
 
