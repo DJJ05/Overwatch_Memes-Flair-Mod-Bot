@@ -188,26 +188,34 @@ If you feel this was an Error please [contact the mods via Modmail](https://www.
 
                         # remove the submission and leave a comment
                         removal_comment = flair_edit_submission.reply(removal_reason)
+
                         removal_comment.mod.distinguish(how='yes', sticky=True)
                         removal_comment.mod.lock()
+
                         flair_edit_submission.mod.remove()
                         flair_edit_submission.mod.lock()
+
                         print(f'submission by u/{flair_edit_submission.author} removed by u/{flair_edit._mod} via flair.')
 
                         ModName = str(flair_edit._mod.lower())
                         print(f'set sql search query to {ModName}')
 
                         updateTable(ModName, 1)
+
             else:
                 print('flair_edit response skipped')
+
     except prawcore.exceptions.ServerError as error:
         print(f'skipping flair_edit due to PRAW error: {type(error)}: {error}')
+
     except prawcore.exceptions.ResponseException as error:
         print(f'skipping flair_edit due to PRAW error: {type(error)}: {error}')
 
     iteration += 1
+
     if iteration <= 10:
         flair_mod_stream(reddit, iteration)
+
     else:
         print('killing flair mod stream, >10 skipped logs')
 
