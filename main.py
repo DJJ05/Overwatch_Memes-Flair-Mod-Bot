@@ -97,6 +97,7 @@ def updateTable(ModName, FlairRemovals):
     finally:
         # closing database connection.
         if (connection):
+
             cursor.close()
             connection.close()
             print("PostgreSQL connection is closed")
