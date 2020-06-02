@@ -1,0 +1,5 @@
+# ignore useless MacOs system storage file
+.DS_Store
+
+# ignore __pycache__
+__pycache__/
