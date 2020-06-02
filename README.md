@@ -4,7 +4,7 @@
 
 This is the official moderation bot made especially for [/r/Overwatch_Memes](https://www.reddit.com/r/overwatch_memes) by me ([/u/DevilJamJar](https://www.reddit.com/u/DevilJamJar)).
 
-This bot’s purpose is to react to flair changes by removing, locking and leaving a removal reason on them. It helps to make moderating much easier for mobile users and desktop users without access to toolbox. If you have any more questions, feel free to ask here or via my Reddit which is linked above.
+This bot’s purpose is to react to flair changes by removing, locking and leaving a removal reason on them. It helps to make moderating much easier for mobile users and desktop users without access to toolbox. If you have any more questions, feel free to ask here or via my Reddit which is linked above. It then procedes to add these removals to a DataBase, where it stores regular removals too. This is how we look at how proactive our moderators are. We use postgres.app for this with heroku's remote postgress addon.
 
 ## VERY IMPORTANT DISCLAIMER
 
