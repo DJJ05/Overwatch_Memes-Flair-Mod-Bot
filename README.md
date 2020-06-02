@@ -16,7 +16,7 @@ You must also use the same license that I used in any future uploads you make, w
 
 ## How can I use this?
 
-To use this repo exactly how it is intended to be used, you will need a Reddit account that you will create a personal use script on, a subreddit of which this account is a moderator on and a PostgreSQL server running the version specified in requirements.txt, alongside a database with a table set up with the same ModStats fields as are listed above and a pip3 installation of the SQL module for ease of acces when starting your database.
+To use this repo exactly how it is intended to be used, you will need a Reddit account that you will create a personal use script on, a subreddit of which this account is a moderator on and a PostgreSQL server running the version specified in requirements.txt, alongside a database with a table set up with the same ModStats fields as are listed in main.py and a pip3 installation of the SQL module for ease of access when starting your database.
 
 You will need to change all the variables in main.py with your own, as should be pretty obvious to you if you have decided to get this far. The IDs of the flairs can be accessed through the flairs list that is viewable to mods. IDs should be listed there. Client secret and ID are listed in your personal use script settings page, and the SQL server settings correspond with the running instance of your PostgreSQL server. If you are running this locally, then you can fill the host variable with 'localhost' and the port as the default.
 
