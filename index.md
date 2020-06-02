@@ -1,6 +1,8 @@
-## Welcome to my GitHub page :)
-### Here I will be showcasing important parts of my code, mainly from the PRAW and PsycoPG2 libraries and showing you how they work.
+# Welcome to my GitHub page :)
+## Here I will be showcasing important parts of my code, mainly from the PRAW and PsycoPG2 libraries and showing you how they work.
 ***
+
+### Initialising a Reddit instance
 
 ```python
 import praw
