@@ -68,8 +68,11 @@ def countremovals(reddit):
 
         removalModName = str(postremoval._mod.lower())
 
-        RegularRemovals = 1
+        if removalModName == config.username:
+            print(f'skipping SQL query because name regular = {removalModName}')
 
-        updateTableRemovals(removalModName, RegularRemovals)
+        else:
+            print(f'running SQL query with name regular {removalModName}')
+            updateTableRemovals(removalModName, RegularRemovals)
 
 countremovals(reddit)
